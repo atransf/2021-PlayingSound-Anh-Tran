@@ -1,0 +1,623 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		93048B1D271F4E4300A82917 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93048B1C271F4E4300A82917 /* AppDelegate.swift */; };
+		93048B1F271F4E4300A82917 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93048B1E271F4E4300A82917 /* SceneDelegate.swift */; };
+		93048B21271F4E4300A82917 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93048B20271F4E4300A82917 /* ViewController.swift */; };
+		93048B24271F4E4300A82917 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93048B22271F4E4300A82917 /* Main.storyboard */; };
+		93048B26271F4E4400A82917 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93048B25271F4E4400A82917 /* Assets.xcassets */; };
+		93048B29271F4E4400A82917 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93048B27271F4E4400A82917 /* LaunchScreen.storyboard */; };
+		93048B34271F4E4400A82917 /* _021_PlayingSound_Anh_TranTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93048B33271F4E4400A82917 /* _021_PlayingSound_Anh_TranTests.swift */; };
+		93048B3E271F4E4400A82917 /* _021_PlayingSound_Anh_TranUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93048B3D271F4E4400A82917 /* _021_PlayingSound_Anh_TranUITests.swift */; };
+		93048B40271F4E4400A82917 /* _021_PlayingSound_Anh_TranUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93048B3F271F4E4400A82917 /* _021_PlayingSound_Anh_TranUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		93048B30271F4E4400A82917 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 93048B11271F4E4300A82917 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 93048B18271F4E4300A82917;
+			remoteInfo = "2021-PlayingSound-Anh-Tran";
+		};
+		93048B3A271F4E4400A82917 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 93048B11271F4E4300A82917 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 93048B18271F4E4300A82917;
+			remoteInfo = "2021-PlayingSound-Anh-Tran";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		93048B19271F4E4300A82917 /* 2021-PlayingSound-Anh-Tran.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "2021-PlayingSound-Anh-Tran.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93048B1C271F4E4300A82917 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		93048B1E271F4E4300A82917 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		93048B20271F4E4300A82917 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		93048B23271F4E4300A82917 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		93048B25271F4E4400A82917 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		93048B28271F4E4400A82917 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		93048B2A271F4E4400A82917 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93048B2F271F4E4400A82917 /* 2021-PlayingSound-Anh-TranTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "2021-PlayingSound-Anh-TranTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93048B33271F4E4400A82917 /* _021_PlayingSound_Anh_TranTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _021_PlayingSound_Anh_TranTests.swift; sourceTree = "<group>"; };
+		93048B39271F4E4400A82917 /* 2021-PlayingSound-Anh-TranUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "2021-PlayingSound-Anh-TranUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93048B3D271F4E4400A82917 /* _021_PlayingSound_Anh_TranUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _021_PlayingSound_Anh_TranUITests.swift; sourceTree = "<group>"; };
+		93048B3F271F4E4400A82917 /* _021_PlayingSound_Anh_TranUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _021_PlayingSound_Anh_TranUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		93048B16271F4E4300A82917 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93048B2C271F4E4400A82917 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93048B36271F4E4400A82917 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		93048B10271F4E4300A82917 = {
+			isa = PBXGroup;
+			children = (
+				93048B1B271F4E4300A82917 /* 2021-PlayingSound-Anh-Tran */,
+				93048B32271F4E4400A82917 /* 2021-PlayingSound-Anh-TranTests */,
+				93048B3C271F4E4400A82917 /* 2021-PlayingSound-Anh-TranUITests */,
+				93048B1A271F4E4300A82917 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		93048B1A271F4E4300A82917 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				93048B19271F4E4300A82917 /* 2021-PlayingSound-Anh-Tran.app */,
+				93048B2F271F4E4400A82917 /* 2021-PlayingSound-Anh-TranTests.xctest */,
+				93048B39271F4E4400A82917 /* 2021-PlayingSound-Anh-TranUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		93048B1B271F4E4300A82917 /* 2021-PlayingSound-Anh-Tran */ = {
+			isa = PBXGroup;
+			children = (
+				93048B1C271F4E4300A82917 /* AppDelegate.swift */,
+				93048B1E271F4E4300A82917 /* SceneDelegate.swift */,
+				93048B20271F4E4300A82917 /* ViewController.swift */,
+				93048B22271F4E4300A82917 /* Main.storyboard */,
+				93048B25271F4E4400A82917 /* Assets.xcassets */,
+				93048B27271F4E4400A82917 /* LaunchScreen.storyboard */,
+				93048B2A271F4E4400A82917 /* Info.plist */,
+			);
+			path = "2021-PlayingSound-Anh-Tran";
+			sourceTree = "<group>";
+		};
+		93048B32271F4E4400A82917 /* 2021-PlayingSound-Anh-TranTests */ = {
+			isa = PBXGroup;
+			children = (
+				93048B33271F4E4400A82917 /* _021_PlayingSound_Anh_TranTests.swift */,
+			);
+			path = "2021-PlayingSound-Anh-TranTests";
+			sourceTree = "<group>";
+		};
+		93048B3C271F4E4400A82917 /* 2021-PlayingSound-Anh-TranUITests */ = {
+			isa = PBXGroup;
+			children = (
+				93048B3D271F4E4400A82917 /* _021_PlayingSound_Anh_TranUITests.swift */,
+				93048B3F271F4E4400A82917 /* _021_PlayingSound_Anh_TranUITestsLaunchTests.swift */,
+			);
+			path = "2021-PlayingSound-Anh-TranUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		93048B18271F4E4300A82917 /* 2021-PlayingSound-Anh-Tran */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93048B43271F4E4400A82917 /* Build configuration list for PBXNativeTarget "2021-PlayingSound-Anh-Tran" */;
+			buildPhases = (
+				93048B15271F4E4300A82917 /* Sources */,
+				93048B16271F4E4300A82917 /* Frameworks */,
+				93048B17271F4E4300A82917 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "2021-PlayingSound-Anh-Tran";
+			productName = "2021-PlayingSound-Anh-Tran";
+			productReference = 93048B19271F4E4300A82917 /* 2021-PlayingSound-Anh-Tran.app */;
+			productType = "com.apple.product-type.application";
+		};
+		93048B2E271F4E4400A82917 /* 2021-PlayingSound-Anh-TranTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93048B46271F4E4400A82917 /* Build configuration list for PBXNativeTarget "2021-PlayingSound-Anh-TranTests" */;
+			buildPhases = (
+				93048B2B271F4E4400A82917 /* Sources */,
+				93048B2C271F4E4400A82917 /* Frameworks */,
+				93048B2D271F4E4400A82917 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				93048B31271F4E4400A82917 /* PBXTargetDependency */,
+			);
+			name = "2021-PlayingSound-Anh-TranTests";
+			productName = "2021-PlayingSound-Anh-TranTests";
+			productReference = 93048B2F271F4E4400A82917 /* 2021-PlayingSound-Anh-TranTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		93048B38271F4E4400A82917 /* 2021-PlayingSound-Anh-TranUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93048B49271F4E4400A82917 /* Build configuration list for PBXNativeTarget "2021-PlayingSound-Anh-TranUITests" */;
+			buildPhases = (
+				93048B35271F4E4400A82917 /* Sources */,
+				93048B36271F4E4400A82917 /* Frameworks */,
+				93048B37271F4E4400A82917 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				93048B3B271F4E4400A82917 /* PBXTargetDependency */,
+			);
+			name = "2021-PlayingSound-Anh-TranUITests";
+			productName = "2021-PlayingSound-Anh-TranUITests";
+			productReference = 93048B39271F4E4400A82917 /* 2021-PlayingSound-Anh-TranUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		93048B11271F4E4300A82917 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					93048B18271F4E4300A82917 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					93048B2E271F4E4400A82917 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 93048B18271F4E4300A82917;
+					};
+					93048B38271F4E4400A82917 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 93048B18271F4E4300A82917;
+					};
+				};
+			};
+			buildConfigurationList = 93048B14271F4E4300A82917 /* Build configuration list for PBXProject "2021-PlayingSound-Anh-Tran" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 93048B10271F4E4300A82917;
+			productRefGroup = 93048B1A271F4E4300A82917 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				93048B18271F4E4300A82917 /* 2021-PlayingSound-Anh-Tran */,
+				93048B2E271F4E4400A82917 /* 2021-PlayingSound-Anh-TranTests */,
+				93048B38271F4E4400A82917 /* 2021-PlayingSound-Anh-TranUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		93048B17271F4E4300A82917 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93048B29271F4E4400A82917 /* LaunchScreen.storyboard in Resources */,
+				93048B26271F4E4400A82917 /* Assets.xcassets in Resources */,
+				93048B24271F4E4300A82917 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93048B2D271F4E4400A82917 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93048B37271F4E4400A82917 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		93048B15271F4E4300A82917 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93048B21271F4E4300A82917 /* ViewController.swift in Sources */,
+				93048B1D271F4E4300A82917 /* AppDelegate.swift in Sources */,
+				93048B1F271F4E4300A82917 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93048B2B271F4E4400A82917 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93048B34271F4E4400A82917 /* _021_PlayingSound_Anh_TranTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93048B35271F4E4400A82917 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93048B40271F4E4400A82917 /* _021_PlayingSound_Anh_TranUITestsLaunchTests.swift in Sources */,
+				93048B3E271F4E4400A82917 /* _021_PlayingSound_Anh_TranUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		93048B31271F4E4400A82917 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 93048B18271F4E4300A82917 /* 2021-PlayingSound-Anh-Tran */;
+			targetProxy = 93048B30271F4E4400A82917 /* PBXContainerItemProxy */;
+		};
+		93048B3B271F4E4400A82917 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 93048B18271F4E4300A82917 /* 2021-PlayingSound-Anh-Tran */;
+			targetProxy = 93048B3A271F4E4400A82917 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		93048B22271F4E4300A82917 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93048B23271F4E4300A82917 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		93048B27271F4E4400A82917 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93048B28271F4E4400A82917 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		93048B41271F4E4400A82917 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		93048B42271F4E4400A82917 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		93048B44271F4E4400A82917 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "2021-PlayingSound-Anh-Tran/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Atransf.-021-PlayingSound-Anh-Tran";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		93048B45271F4E4400A82917 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "2021-PlayingSound-Anh-Tran/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Atransf.-021-PlayingSound-Anh-Tran";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		93048B47271F4E4400A82917 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Atransf.-021-PlayingSound-Anh-TranTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/2021-PlayingSound-Anh-Tran.app/2021-PlayingSound-Anh-Tran";
+			};
+			name = Debug;
+		};
+		93048B48271F4E4400A82917 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Atransf.-021-PlayingSound-Anh-TranTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/2021-PlayingSound-Anh-Tran.app/2021-PlayingSound-Anh-Tran";
+			};
+			name = Release;
+		};
+		93048B4A271F4E4400A82917 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Atransf.-021-PlayingSound-Anh-TranUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "2021-PlayingSound-Anh-Tran";
+			};
+			name = Debug;
+		};
+		93048B4B271F4E4400A82917 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Atransf.-021-PlayingSound-Anh-TranUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "2021-PlayingSound-Anh-Tran";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		93048B14271F4E4300A82917 /* Build configuration list for PBXProject "2021-PlayingSound-Anh-Tran" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93048B41271F4E4400A82917 /* Debug */,
+				93048B42271F4E4400A82917 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93048B43271F4E4400A82917 /* Build configuration list for PBXNativeTarget "2021-PlayingSound-Anh-Tran" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93048B44271F4E4400A82917 /* Debug */,
+				93048B45271F4E4400A82917 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93048B46271F4E4400A82917 /* Build configuration list for PBXNativeTarget "2021-PlayingSound-Anh-TranTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93048B47271F4E4400A82917 /* Debug */,
+				93048B48271F4E4400A82917 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93048B49271F4E4400A82917 /* Build configuration list for PBXNativeTarget "2021-PlayingSound-Anh-TranUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93048B4A271F4E4400A82917 /* Debug */,
+				93048B4B271F4E4400A82917 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 93048B11271F4E4300A82917 /* Project object */;
+}
